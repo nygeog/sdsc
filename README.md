@@ -17,25 +17,33 @@ Once Miniconda is set up, create an env:
 `conda create -n sdsc python=3.8`
 
 Activate your Conda environment. 
+
 `conda activate sdsc`
 
 Install Jupyter Lab
+
 `pip install jupyterlab` 
 
 Install GeoPandas
+
 `conda install geopandas` 
 
 Install Rasterio 
+
 `pip install rasterio`
 
 Install Folium
+
 `conda install folium -c conda-forge --yes`
 
 IPyLealeft
+
 `conda install -c conda-forge ipyleaflet`
 
 Enable extension
-!jupyter nbextension enable --py --sys-prefix ipyleaflet
+
+`jupyter nbextension enable --py --sys-prefix ipyleaflet`
 
 Raster Stats
+
 `pip install rasterstats` 
