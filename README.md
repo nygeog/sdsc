@@ -47,3 +47,11 @@ Enable extension
 Raster Stats
 
 `pip install rasterstats` 
+
+Rise
+`pip install RISE`
+
+
+#### Create Conda Requirements file
+
+`conda list -e > requirements.txt`
