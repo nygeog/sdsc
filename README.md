@@ -51,6 +51,9 @@ Raster Stats
 Rise
 `pip install RISE`
 
+OSMnx (Optional)
+`!conda install osmnx -y`
+
 
 #### Create Conda Requirements file
 
